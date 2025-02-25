@@ -1,0 +1,16 @@
+/** 配置后台管理员token */
+const HaloTokenConfig = Object.freeze({
+	
+	/** 基础请求域名：你的Halo博客基础域名 */
+	BASE_API: "https://shenfangda.cn",
+	// BASE_API: "https://blog.925i.cn",
+
+
+	/** 管理员token */
+	systemToken: `pat_eyJraWQiOiJMc25SaEtMS2prODBUOXpBT0tkUEpib1NwTFZ1MzBBUmlKb1U5MjJCUHRRIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJodHRwOi8vc2hlbmZhbmdkYS5jbiIsInN1YiI6InNoZW5mYW5nZGEiLCJpYXQiOjE3NDAzNjU2NDEsImp0aSI6IjgzOWEyZDhhLWJiNDEtODcyOC03MzRlLWE4Nzg5YjIzOWE0ZCIsInBhdF9uYW1lIjoicGF0LXNoZW5mYW5nZGEtbGRaVlUifQ.r2eeQcHoirn0dzImYkoDHagc5Cr8dUqYTpFjpBvBAxI6o8W38QC7bD5E6pS1ZUbCGCyd2VXVInVolx57XqqTEViHjzMEhEqJ__5VXL1x4kCeSqL901sxI3vfN7UTTrxrRs4igN2F1_AXlMavtD3FnRsB9g1bLpL35lNhbBHrZYT63P9UyWynpJ7qhYORW-JUZqiXuMsoUOT4hcSYLICNq05i5EaHSGvJxDwH_PRqKU3IfvA2HA2jIuwLHUH_iUju49T2Y5Uvpe_ynLt2IfgMfdgziS919hxu-NTNneLVVY79xQ8lcS9PtyY5bc3Jpf-7jWame4Fevh86n5uIbQRLjUGilj37z00aaEDlflRzlPJtKvSDtMwLMyVeEApYUHJZjWn_ufYzzbQp0HaX79u3_q9M5etBKwU2nQixv-Y39Uu6pUAndaociigIQxlZ3OWkYqR_GgI5Qwl3DJ6DClNY9RGXB9sCOSKdUHLR_kI4_0-jgrtHaZRzH29bzivZbgA8qeeg1OHkIpbG0n4jdfqUUhsKl1PLJ4Lw-1Jndv-3n5poNxI5nx34IF6Dr5StFTeBaeCAYe5lEztD_zrA5tdQ5FjKbRn3haHgiVEiov8ZorumyDIa5dEWLYTzLQ82zfbeKm4xbUrxfGbC8I3o1KOT8emGNM-JjStAEkEV75vmABs`,
+	/** 匿名用户token */
+	anonymousToken: ``
+})
+
+
+export default HaloTokenConfig;

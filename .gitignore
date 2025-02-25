@@ -5,5 +5,4 @@ package-lock.json
 
 config/halo.config.js 
 config/love.config.js
-config/token.config.js
 config/plugins.config.js
