@@ -145,7 +145,8 @@
         "usingComponents" : true,
         "uniStatistics" : {
             "enable" : true
-        }
+        },
+        "appid" : "ttb643c0fe2949406101"
     },
     "uniStatistics" : {
         "enable" : true,
